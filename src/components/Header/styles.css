@@ -1,0 +1,40 @@
+#header {
+  background-color: #111111;
+}
+
+#header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header nav img {
+  width: 50px;
+  height: 50px;
+}
+
+#header nav .nav-list {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+#header nav .nav-list li {
+  margin-left: 20px;
+}
+
+#header nav .nav-list li a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+#header nav .nav-list li:first-child a {
+  font-weight: 600;
+  color: white;
+}
